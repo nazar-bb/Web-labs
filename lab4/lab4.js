@@ -29,3 +29,11 @@ switch (obj2.num2) {
   default:
     console.log("Інше число");
 }
+
+Object.assign(obj1, obj2);
+console.log(obj1);
+Object.freeze(obj3);
+let keys = Object.keys(obj1);
+console.log(keys);
+let entries = Object.entries(obj1);
+console.log(entries);
