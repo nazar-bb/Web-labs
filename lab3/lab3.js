@@ -38,3 +38,8 @@ number /= 4;
 console.log(number);
 number %= 2;
 console.log(number);
+
+number = 10;
+console.log(bull && number > 5);
+console.log(bull || number < 0);
+console.log(!bull);
